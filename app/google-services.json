@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "997611766680",
+    "firebase_url": "https://spectrum-f7adb.firebaseio.com",
+    "project_id": "spectrum-f7adb",
+    "storage_bucket": "spectrum-f7adb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997611766680:android:fcb70da11c41a93d1261ed",
+        "android_client_info": {
+          "package_name": "com.example.spectrum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997611766680-atopphgsuooo0psp2n3eoncmooqvu8sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1HIG7fdqMpcGgOhvEPMQfqvTTUA6v-iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997611766680-atopphgsuooo0psp2n3eoncmooqvu8sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

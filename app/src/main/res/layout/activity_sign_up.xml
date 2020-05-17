@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".SignUp_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPECTRUM"
+            android:id="@+id/companyName"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColorHighlight="@color/background_color"
+            android:textStyle="normal"></TextView>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/companyName"
+            android:textAlignment="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/signup_user_name"
+            android:background="@drawable/buton_rounded"
+            android:hint="E-mail"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/signup_password"
+            android:layout_below="@+id/signup_user_name"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buton_rounded"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:inputType="numberPassword"
+            android:gravity="center"
+            android:hint="password"></EditText>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_sign_up"
+            android:layout_below="@+id/signup_password"
+            android:layout_marginRight="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buton_rounded"
+            android:textColor="@color/background_color"
+            android:text="signup"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alrady have an account?Click here"
+            android:layout_below="@id/button_sign_up"
+            android:textSize="20dp"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:onClick="logInPage"></TextView>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
