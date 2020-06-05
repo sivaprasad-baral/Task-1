@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="100dp">
 
         <TextView
@@ -67,13 +67,37 @@
 
             />
 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/separator"
+            android:text="OR"
+            android:layout_below="@id/button_sign_up"
+            android:textSize="15sp"
+            android:background="@drawable/buton_rounded"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:onClick="logInPage" />
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/google_signIn_Btn"
+            android:layout_below="@id/separator"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Alrady have an account?Click here"
-            android:layout_below="@id/button_sign_up"
-            android:textSize="20dp"
-            android:layout_marginTop="100dp"
+            android:layout_below="@id/google_signIn_Btn"
+            android:textSize="15sp"
+            android:layout_marginTop="50dp"
             android:textColor="@color/white"
             android:gravity="center"
             android:onClick="logInPage"></TextView>
